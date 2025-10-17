@@ -125,6 +125,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 
 footer .container{
@@ -480,22 +481,22 @@ div.section{margin-top: 30px; display: flex;align-items: center;}
 .section._6 {
     width: 100%;
     height: 300px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .section._7 {
     width: 100%;
     height: 300px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .section._8 {
     width: 100%;
     height: 300px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .section._9 {
     width: 100%;
     height: 300px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 
@@ -831,6 +832,147 @@ section.contact .mini_title {
 section.contact .contact_info a {
   color: #5287bb;
 }
+
+/*  MISSION     */
+.ms_1{
+    background-image: url(images/missions/section_mission.png);
+    width: 100%;
+    height: 700px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.ms_1 p{
+    color: white;
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 400;
+}
+.m_text{
+    /* margin-top: 100px; */
+    display: flex;
+    height: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 150px;
+}
+.ms_2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.ms_2 div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 20px;
+    width: 100%;
+    margin-top: 60px;
+    margin-left: 80px;
+}
+.ms_2 img{
+    height: 30px;
+    width: 30px;
+}
+
+.ms_2 p{
+    width: 900px;
+    font-family: "Averia Serif Libre", serif;
+    margin-top: 25px;
+    margin-left: 80px;
+}
+.ms_cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+}
+.ms_cards .card{
+    width: 420px;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 35px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    color: white;
+    background: black;
+    padding: 0;
+    margin: 0;
+}
+.ms_cards .card img{
+    width: 100%;
+    height: 300px;
+    border-radius: 35px 35px 0 0 ;
+}
+.ms_cards .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 35px #1e90ff;
+}
+.name_m{
+    font-family: "Averia Serif Libre", serif;
+    font-size: 45px;
+}
+
+.ms_cards .details{
+        width: 100%;
+    height: 200px;
+    padding-left: 20px;
+    display: flex;
+    grid: 20px;
+    flex-wrap: wrap;
+    margin-top: 0;
+    font-family: "Abel", sans-serif;
+    margin-bottom: 30px;
+}
+
+
+/*  ABOUT US    */
+.about_us{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 60px;
+}
+.about_text{
+    height: 250px;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 40px;
+}
+.about_us img{
+    height: 400px;
+    width: 400px;
+}
+.about_us .title{
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+}
+.about_us .details{
+    font-size:24px ;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* /* RESPONSIVE */
 @media (max-width: 980px){
     ._4 {display: none;}
